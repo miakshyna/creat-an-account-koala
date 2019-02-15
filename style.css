@@ -1,0 +1,146 @@
+body {
+  background-color: #ebf4f4;
+}
+body .form-background {
+  background-color: white;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  width: 320px;
+  height: 370px;
+  margin-left: 115px;
+  margin-top: 105px;
+}
+body .form-title {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 153px;
+  top: 86px;
+  width: 140px;
+  height: 13px;
+  background-color: #04a4ac;
+  border: 1px solid black;
+  padding: 4px;
+}
+body .form-email {
+  top: 156px;
+  width: 116px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #333333;
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  position: absolute;
+  left: 154px;
+  height: 158px;
+}
+body .form-label-email {
+  top: 180px;
+  left: 154px;
+  width: 258px;
+  height: 25px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #777777;
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  background-color: #ebf4f4;
+}
+body .form-password {
+  top: 229px;
+  width: 130px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #333333;
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  position: absolute;
+  left: 154px;
+  height: 158px;
+}
+body .form-label-password {
+  top: 255px;
+  left: 154px;
+  width: 258px;
+  height: 25px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #777777;
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  background-color: #ebf4f4;
+}
+body .form-password-confirm {
+  top: 307px;
+  width: 130px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #333333;
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  position: absolute;
+  left: 154px;
+  height: 158px;
+}
+body .form-label-password-confirm {
+  top: 330px;
+  left: 154px;
+  width: 258px;
+  height: 25px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #777777;
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  background-color: #ebf4f4;
+}
+body .form-button {
+  border-radius: 4px;
+  border-color: #10bfbf;
+  background-color: #04a4ac;
+  position: absolute;
+  left: 154px;
+  top: 395px;
+  width: 260px;
+  height: 45px;
+  font-size: 16px;
+  font-family: "Arial";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.688;
+  text-align: center;
+}
+.label {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #333333;
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  position: absolute;
+  left: 154px;
+  height: 158px;
+}
+.form-label {
+  left: 154px;
+  width: 258px;
+  height: 25px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #777777;
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  background-color: #ebf4f4;
+}

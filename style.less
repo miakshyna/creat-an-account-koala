@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(235, 244, 244);
+    .form {
+        &-background {
+            background-color: white;
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            width: 320px;
+            height: 370px;
+            margin-left: 115px;
+            margin-top: 105px;
+        }
+        &-title{
+            font-size: 12px;
+            font-family: "Arial";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+            text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            left: 153px;
+            top: 86px;
+            width: 140px;
+            height: 13px;
+            background-color: rgb(4,164,172);
+            border: 1px solid black;
+            padding: 4px;
+        }
+        &-email{
+            top: 156px;
+            width: 116px;
+            .label()
+        }
+        &-label-email{
+            top: 180px;
+            .form-label()
+        }
+        &-password{
+            top: 229px;
+            width: 130px;
+            .label()
+        }
+        &-label-password{
+            top: 255px;
+            .form-label()
+        }
+        &-password-confirm{
+            top: 307px;
+            width: 130px;
+            .label()
+        }
+        &-label-password-confirm{
+            top: 330px;
+            .form-label()
+        }
+        &-button {
+            border-radius: 4px;
+            border-color: #10bfbf;
+            background-color: rgb(4,164,172);
+            position: absolute;
+            left: 154px;
+            top: 395px;
+            width: 260px;
+            height: 45px;
+            font-size: 16px;
+            font-family: "Arial";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 2.688;
+            text-align: center;
+        }
+    }
+}
+
+.label {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 0.833;
+    text-align: left;
+    position: absolute;
+    left: 154px;    
+    height: 158px;
+}
+
+.form-label {
+    position: absolute;
+    left: 154px;   
+    width: 258px;
+    height: 25px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(119, 119, 119);
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    background-color: rgb(235, 244, 244);
+}
